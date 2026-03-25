@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Satheesh Kumar — Backend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400;500&family=Outfit:wght@300;400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <a href="#home" class="nav-logo">SK<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#education">Education</a></li>
+    </ul>
+    <a href="mailto:krishna14054@gmail.com" class="nav-cta">Hire Me</a>
+  </nav>
+
+  <!-- ─── HERO ─── -->
+  <section id="home">
+    <div class="hero-grid">
+
+      <!-- LEFT: PROFILE IMAGE -->
+      <div class="hero-profile">
+        <div class="profile-img-wrap">
+          <img src="profile-photo.png" alt="Satheesh Kumar"
+            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <span class="initials-fallback" style="display:none;">SK</span>
+        </div>
+      </div>
+
+      <!-- CENTER: CONTENT -->
+      <div class="hero-left">
+        <p class="hero-eyebrow" style="margin-top: 50px;">Backend Developer &amp; API Architect</p>
+        <h1 class="hero-name">Satheesh<br><em>Kumar</em></h1>
+
+        <p class="hero-tagline">
+          Crafting scalable, high-performance APIs and microservices for IoT, healthcare, HR tech, and agricultural
+          systems.
+        </p>
+
+        <div class="hero-tags">
+          <span class="tag">Node.js</span>
+          <span class="tag">Express.js</span>
+          <span class="tag">TypeScript</span>
+          <span class="tag">Javascript</span>
+          <span class="tag">RAG</span>
+          <span class="tag">Generative AI</span>
+          <span class="tag">PostgreSQL &amp; MongoDB</span>
+          <span class="tag">MQTT &amp; IoT</span>
+          <span class="tag">REST APIs</span>
+          <span class="tag">API Gateway</span>
+          <span class="tag">Microservices</span>
+
+        </div>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary">View Projects</a>
+          <a href="#contact" class="btn-ghost">Get in touch</a>
+        </div>
+      </div>
+
+      <!-- RIGHT: STATS -->
+      <div class="hero-stats">
+        <div class="stat-block">
+          <h3>6+</h3>
+          <p>Backend Projects</p>
+        </div>
+        <div class="stat-block">
+          <h3>4+</h3>
+          <p>Industries Served</p>
+        </div>
+        <div class="stat-block">
+          <h3>20+</h3>
+          <p>Technologies</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="scroll-line">Scroll to explore</div>
+  </section>
+
+  <!-- ─── ABOUT ─── -->
+  <section id="about">
+    <div class="about-layout">
+      <div class="about-text">
+        <p class="section-label">About Me</p>
+        <h2 class="section-title">Building the <em>invisible</em> backbone</h2>
+        <div class="section-divider"></div>
+        <p>Backend Developer specializing in <strong>scalable, high-performance APIs</strong> and microservices. I work
+          across IoT systems, healthcare applications, HR tech platforms, and agricultural technology.</p>
+
+        <p>Proficient in the <strong>TypeScript/Node.js ecosystem</strong> with hands-on experience in real-time
+          communication (MQTT, WebSockets), cloud infrastructure, and <strong>AI-driven systems including Large Language
+            Models (LLMs), Retrieval-Augmented Generation (RAG), and Generative AI integrations.</strong></p>
+
+        <p>I focus on building <strong>intelligent, production-grade solutions</strong> that combine clean architecture,
+          type safety, and scalable design — delivering systems that are robust, efficient, and evolve seamlessly with
+          business needs.</p>
+      </div>
+      <div class="about-right reveal">
+        <div class="info-row">
+          <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div class="info-content">
+            <label>Location</label>
+            <span>Hyderabad, India</span>
+          </div>
+        </div>
+        <div class="info-row">
+          <div class="info-icon"><i class="fas fa-envelope"></i></div>
+          <div class="info-content">
+            <label>Email</label>
+            <span>satheesh8349@gmail.com</span>
+          </div>
+        </div>
+        <div class="info-row">
+          <div class="info-icon"><i class="fas fa-phone"></i></div>
+          <div class="info-content">
+            <label>Phone</label>
+            <span>+91 6304615429</span>
+          </div>
+        </div>
+        <div class="info-row">
+          <div class="info-icon"><i class="fab fa-github"></i></div>
+          <div class="info-content">
+            <label>GitHub</label>
+            <span>https://github.com/satheeshkumar953</span>
+          </div>
+        </div>
+        <div class="info-row">
+          <div class="info-icon"><i class="fab fa-linkedin"></i></div>
+          <div class="info-content">
+            <label>LinkedIn</label>
+            <span>https://www.linkedin.com/in/satheeshkumar8/</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PROJECTS ─── -->
+  <section id="projects">
+    <p class="section-label reveal">Featured Work</p>
+    <h2 class="section-title reveal">Projects that <em>ship</em></h2>
+    <div class="section-divider reveal"></div>
+    <div class="filter-row reveal" id="filterRow"></div>
+    <div class="projects-grid" id="projectsGrid"></div>
+  </section>
+
+  <!-- ─── SKILLS ─── -->
+  <section id="skills">
+    <p class="section-label reveal">Expertise</p>
+    <h2 class="section-title reveal">Technical <em>arsenal</em></h2>
+    <div class="section-divider reveal"></div>
+    <div class="skills-layout" id="skillsLayout"></div>
+  </section>
+
+  <!-- ─── EDUCATION ─── -->
+  <section id="education">
+    <p class="section-label reveal">Background</p>
+    <h2 class="section-title reveal">Education</h2>
+    <div class="section-divider reveal"></div>
+    <div class="education-card reveal">
+      <p class="project-category">B.Tech in Computer Science</p>
+      <h3 class="edu-degree">IIIT-ONGOLE<br>Rajiv Gandhi University of Knowledge Technologies</h3>
+      <p class="edu-school">Bachelor of Technology</p>
+      <div class="edu-meta">
+        <div class="edu-meta-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Ongole, Andhra Pradesh</span>
+        </div>
+        <div class="edu-meta-item">
+          <i class="fas fa-calendar-alt"></i>
+          <span>2020 – 2024</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ─── -->
+  <section id="contact">
+    <p class="section-label reveal">Let's Connect</p>
+    <h2 class="section-title reveal">Got a project <em>in mind?</em></h2>
+    <div class="section-divider reveal" style="margin: 1.5rem auto 0; width: 48px;"></div>
+    <p class="contact-intro reveal" style="margin-top: 2rem;">
+      I'm open to new opportunities, freelance collaborations, or just a good conversation about backend architecture.
+      Reach out — I respond promptly.
+    </p>
+    <div class="contact-links reveal">
+      <a href="mailto:satheesh8349@gmail.com" class="contact-link">
+        <i class="fas fa-envelope"></i> satheesh8349@gmail.com
+      </a>
+      <a href="tel:+916304615429" class="contact-link">
+        <i class="fas fa-phone"></i> +91 6304615429
+      </a>
+      <a href="https://github.com/satheeshkumar953" target="_blank" class="contact-link">
+        <i class="fab fa-github"></i> GitHub
+      </a>
+      <a href="https://www.linkedin.com/in/satheeshkumar8/" target="_blank" class="contact-link">
+        <i class="fab fa-linkedin"></i> LinkedIn
+      </a>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer>
+    <p class="footer-logo">SK<span>.</span></p>
+    <p>&copy; 2026 Satheesh Kumar. All rights reserved.</p>
+  </footer>
+
+  <script>
+    /* ── Cursor ── */
+    const cursor = document.getElementById('cursor');
+    const ring = document.getElementById('cursorRing');
+    document.addEventListener('mousemove', e => {
+      cursor.style.left = e.clientX + 'px'; cursor.style.top = e.clientY + 'px';
+      setTimeout(() => { ring.style.left = e.clientX + 'px'; ring.style.top = e.clientY + 'px'; }, 80);
+    });
+    document.querySelectorAll('a, button, .project-card, .skill-card').forEach(el => {
+      el.addEventListener('mouseenter', () => { cursor.style.transform = 'translate(-50%,-50%) scale(2)'; ring.style.opacity = '0'; });
+      el.addEventListener('mouseleave', () => { cursor.style.transform = 'translate(-50%,-50%) scale(1)'; ring.style.opacity = '1'; });
+    });
+
+    /* ── Nav scroll ── */
+    window.addEventListener('scroll', () => {
+      document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    /* ── Reveal on scroll ── */
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); } });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+    /* ── Projects Data ── */
+    const projects = [
+      {
+        id: 1,
+        category: 'hrtech',
+        label: 'HR Tech',
+        title: 'Figlinks | AI Interview Platform & Video Processor',
+        desc: 'AI-powered hiring platform for automated interviews, video processing, and candidate evaluation with intelligent scoring and reporting.',
+        stack: ['TypeScript', 'Hono.js', 'PostgreSQL', 'Drizzle ORM', 'Google Gemini', 'Deepgram', 'FFmpeg', 'Puppeteer', 'AWS S3', 'Upstash'],
+        highlights: [
+          'AI-driven interview assessment and scoring',
+          'Voice and video processing with Deepgram & FFmpeg',
+          'Automated PDF report generation',
+          'Proctoring analytics for candidate evaluation'
+        ]
+      },
+      {
+        id: 2,
+        category: 'iot',
+        label: 'IoT & AgriTech',
+        title: 'IoT Soft Starter Platform',
+        desc: 'IoT-based motor control system with AI-driven analytics for monitoring and optimizing industrial equipment performance.',
+        stack: ['TypeScript', 'Hono.js', 'MQTT', 'RabbitMQ', 'OpenAI', 'Google AI', 'AWS S3', 'Socket.io'],
+        highlights: [
+          'Real-time motor monitoring via MQTT',
+          'AI-based performance analytics',
+          'Event-driven architecture using RabbitMQ',
+          'Cloud-integrated IoT data processing'
+        ]
+      },
+      {
+        id: 3,
+        category: 'iot',
+        label: 'IoT & AgriTech',
+        title: 'Demeter Cloud | Smart Farming Platform',
+        desc: 'Agricultural IoT platform for farm and robot fleet management with real-time monitoring and automation.',
+        stack: ['TypeScript', 'Hono.js', 'PostgreSQL', 'Drizzle ORM', 'MQTT', 'Socket.io', 'WebRTC', 'AWS S3'],
+        highlights: [
+          'Real-time MQTT-based device communication',
+          'Robot fleet and mission management',
+          'WebRTC-based live video streaming',
+          'Scalable cloud-based architecture'
+        ]
+      },
+      {
+        id: 4,
+        category: 'hrtech',
+        label: 'HR Tech',
+        title: 'ATS | Recruitment Management System',
+        desc: 'Applicant Tracking System for managing candidate pipelines, interview scheduling, and hiring workflows.',
+        stack: ['TypeScript', 'Hono.js', 'PostgreSQL', 'Drizzle ORM', 'BullMQ'],
+        highlights: [
+          'Candidate pipeline management',
+          'Interview scheduling automation',
+          'Email notification workflows',
+          'Multi-stage hiring process tracking'
+        ]
+      },
+      {
+        id: 5,
+        category: 'healthcare',
+        label: 'Healthcare',
+        title: 'Labsquire | EMR Integration Platform',
+        desc: 'Healthcare integration platform connecting lab systems with external EHR platforms using standardized protocols.',
+        stack: ['Express.js', 'MongoDB', 'HL7 Parser', 'SFTP', 'JWT', 'AWS SDK'],
+        highlights: [
+          'HL7-based medical data integration',
+          'Secure data transfer via SFTP',
+          'Authentication using JWT',
+          'Interoperability with EHR systems'
+        ]
+      },
+      {
+        id: 6,
+        category: 'ai',
+        label: 'AI',
+        title: 'NyayaTech | AI Draft Generation System',
+        desc: 'AI-powered system for generating legal drafts, summaries, and structured documents using LLMs and Retrieval-Augmented Generation (RAG).',
+        stack: ['Node.js', 'Express.js', 'MongoDB', 'LLMs', 'RAG', 'NLP'],
+        highlights: [
+          'Automated legal draft generation',
+          'Context-aware document creation using RAG',
+          'Improved accuracy and consistency in outputs',
+          'Reduced manual effort and processing time'
+        ]
+      }
+    ];
+
+    const skills = [
+      { icon: 'fas fa-code', label: 'Languages', items: ['TypeScript', 'JavaScript', 'Python'] },
+      { icon: 'fas fa-server', label: 'Frameworks', items: ['Hono.js', 'Express.js', 'FastAPI'] },
+      { icon: 'fas fa-database', label: 'Databases & ORMs', items: ['PostgreSQL', 'MongoDB', 'LibSQL', 'Drizzle ORM', 'Mongoose'] },
+      { icon: 'fas fa-network-wired', label: 'Real-Time & IoT', items: ['MQTT', 'Socket.io', 'WebSocket', 'WebRTC', 'RabbitMQ'] },
+      { icon: 'fas fa-cloud', label: 'Cloud & Infra', items: ['AWS S3', 'Firebase Admin', 'Docker', 'BullMQ'] },
+      { icon: 'fas fa-shield-alt', label: 'Auth & Security', items: ['JWT HS512', 'Argon2', 'Bcrypt', 'RBAC', 'Firebase Auth'] },
+      { icon: 'fas fa-check-circle', label: 'Validation & Patterns', items: ['Zod', 'Valibot', 'Result Pattern', 'Factory Pattern', 'Service Layer'] },
+      { icon: 'fas fa-tools', label: 'Tools', items: ['Git', 'Bruno', 'Postman', 'Drizzle Kit', 'Pino Logging'] }
+    ];
+
+    /* Render filters */
+    const filters = ['All', 'HR Tech', 'IoT & AgriTech', 'Healthcare', 'Management'];
+    const filterMap = { 'All': 'all', 'HR Tech': 'hrtech', 'IoT & AgriTech': 'iot', 'Healthcare': 'healthcare', 'Management': 'management' };
+    const filterRow = document.getElementById('filterRow');
+    filters.forEach((f, i) => {
+      const btn = document.createElement('button');
+      btn.className = 'filter-btn' + (i === 0 ? ' active' : '');
+      btn.textContent = f;
+      btn.dataset.filter = filterMap[f];
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        renderProjects(btn.dataset.filter);
+      });
+      filterRow.appendChild(btn);
+    });
+
+    /* Render projects */
+    function renderProjects(filter) {
+      const grid = document.getElementById('projectsGrid');
+      const filtered = filter === 'all' ? projects : projects.filter(p => p.category === filter);
+      grid.innerHTML = filtered.map((p, idx) => `
+        <div class="project-card">
+          <span class="project-number">0${idx + 1}</span>
+          <p class="project-category">${p.label}</p>
+          <h3 class="project-title">${p.title}</h3>
+          <p class="project-desc">${p.desc}</p>
+          <div class="project-stack">${p.stack.map(s => `<span class="stack-tag">${s}</span>`).join('')}</div>
+          <ul class="project-highlights">${p.highlights.map(h => `<li>${h}</li>`).join('')}</ul>
+        </div>
+      `).join('');
+    }
+    renderProjects('all');
+
+    /* Render skills */
+    const sl = document.getElementById('skillsLayout');
+    skills.forEach(s => {
+      sl.innerHTML += `
+        <div class="skill-card reveal">
+          <div class="skill-card-header">
+            <div class="skill-icon"><i class="${s.icon}"></i></div>
+            <h3>${s.label}</h3>
+          </div>
+          <div class="skill-items">${s.items.map(i => `<span class="skill-item">${i}</span>`).join('')}</div>
+        </div>`;
+    });
+
+    /* Re-observe dynamic elements */
+    document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+  </script>
+</body>
+
+</html>
